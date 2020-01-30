@@ -1,0 +1,34 @@
+{
+  "name": "mr-robot",
+  "version": "1.0.0",
+  "description": "Hacktronian port to javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomkiernan120/mr-robot.git"
+  },
+  "bin": {
+    "mrrobot": "./.bin/cli.js"
+  },
+  "keywords": [
+    "hacker",
+    "tools"
+  ],
+  "author": "Tom Kiernan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomkiernan120/mr-robot/issues"
+  },
+  "homepage": "https://github.com/tomkiernan120/mr-robot#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.1.0",
+    "email-prompt": "^0.3.2",
+    "listr": "^0.14.3",
+    "ora": "^4.0.3",
+    "prompts": "^2.3.0"
+  }
+}
